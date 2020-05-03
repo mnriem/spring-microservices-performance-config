@@ -4,7 +4,6 @@ application:
 server:
   servlet:
     context-path: /greeting
-  port: 6000
 
 feign:
   hystrix:

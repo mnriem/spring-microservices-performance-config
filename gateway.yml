@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: greeting
+          uri: http://greeting-service/
+          predicates:
+            - Path=/greeting/**

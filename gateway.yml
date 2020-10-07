@@ -3,6 +3,6 @@ spring:
     gateway:
       routes:
         - id: greeting
-          uri: http://greeting-service/
+          uri: https://greeting-service/
           predicates:
             - Path=/greeting/**

@@ -1,3 +1,12 @@
+azure:
+    keyvault:
+        uri: https://keyvault-ssl-1234.vault.azure.net/
+server:
+    ssl:
+        enabled: true
+        key-alias: self-signed
+        key-store-type: DKS
+
 application:
     message: Hello, %s! - Configured by Spring Cloud Config Server%n
 

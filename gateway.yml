@@ -6,6 +6,6 @@ spring:
           trust-store-type: AzureKeyVault
       routes:
         - id: greeting
-          uri: https://greeting-service:80/
+          uri: lb://greeting-service/
           predicates:
             - Path=/greeting/**

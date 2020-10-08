@@ -1,0 +1,7 @@
+server:
+  servlet:
+    context-path: /greeting-netty
+
+feign:
+  hystrix:
+    enabled: true

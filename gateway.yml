@@ -9,3 +9,7 @@ spring:
           uri: https://greeting-service:80/
           predicates:
             - Path=/greeting/**
+        - id: greeting-netty
+          uri: https://greeting-service-netty:80/
+          predicates:
+            - Path=/greeting-netty/**

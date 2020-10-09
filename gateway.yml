@@ -1,12 +1,9 @@
-azure:
-    keyvault:
-        uri: https://keyvault-ssl-1234.vault.azure.net/
 spring:
   cloud:
     gateway:
       httpclient:
         ssl:
-          trust-store-type: AzureKeyVault
+          useInsecureTrustManager: true
       routes:
         - id: greeting
           uri: https://greeting-service:80/

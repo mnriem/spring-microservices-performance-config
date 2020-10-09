@@ -1,7 +1,3 @@
-spring:
-  webflux:
-    base-path: /netty
-
 feign:
   hystrix:
     enabled: true

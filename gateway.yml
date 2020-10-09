@@ -1,3 +1,6 @@
+azure:
+    keyvault:
+        uri: https://keyvault-ssl-1234.vault.azure.net/
 spring:
   cloud:
     gateway:

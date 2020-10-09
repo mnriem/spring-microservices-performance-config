@@ -1,3 +1,12 @@
+azure:
+  keyvault:
+    uri: https://keyvault-ssl-1234.vault.azure.net/
+    
+server:
+  ssl:
+    key-alias: self-signed
+    key-store-type: AzureKeyVault
+
 feign:
   hystrix:
     enabled: true

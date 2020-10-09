@@ -1,6 +1,6 @@
 spring:
   webflux:
-    base-path: /greeting-netty
+    base-path: /netty
 
 feign:
   hystrix:

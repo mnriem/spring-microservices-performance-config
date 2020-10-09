@@ -1,6 +1,6 @@
-server:
-  servlet:
-    context-path: /greeting-netty
+spring:
+  webflux:
+    base-path: /greeting-netty
 
 feign:
   hystrix:

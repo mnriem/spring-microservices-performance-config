@@ -3,7 +3,7 @@ spring:
     gateway:
       httpclient:
         ssl:
-          useInsecureTrustManager: true
+          trust-store-type: AzureKeyVault
       routes:
         - id: greeting
           uri: https://greeting-service:80/
